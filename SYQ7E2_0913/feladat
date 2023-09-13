@@ -1,1 +1,25 @@
-#feladat
+<!DOCTYPE html>
+<html>
+<title>Index</title>
+<head>
+</head>
+<body>
+<div  style="background-image:linear-gradient(white,green);">
+    <div>
+    <h1 style="text-align:center;padding:100px;">Welcome to my site traveller</h1>
+    <img src="letöltés.png" alt="kép" style="margin: 0px 50%"><img>
+    </div>
+    <div style="display: flex; text-align:center;justify-content: center; ;margin:30px">
+    <div style="width:20%; border: solid white 2px; border-radius:20px;margin: 0rem 2rem; background-color: grey"> <a>Place holder </a> </div>
+    <div style="width:20%; border: solid white 2px; border-radius:20px;margin: 0rem 2rem; background-color: grey "> <a>Place holder </a> </div>
+    <div style="width:20%; border: solid white 2px; border-radius:20px;margin: 0rem 2rem; background-color: grey"> <a>Place holder </a> </div>
+    </div>
+    <div style="margin-left:15%; height:100px">information here
+    <div>asdsda</div>
+    <div>asdsda</div>
+    <div>asdsda</div>
+    </div>
+    
+</div>
+</body>
+</html>
