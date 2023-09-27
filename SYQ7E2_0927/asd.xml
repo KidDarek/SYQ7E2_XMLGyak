@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SYQ7E2_orarend>
+    <ora id="Valszám" tipus="előadás">
+        <targy>Valszám</targy>
+        <idopont>   
+            <nap>Hétfő</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszín>A1 312</helyszín>
+        <oktato>Fegyverneki</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="Mesterséges inteligencia" tipus="előadás">
+        <targy>Mesterséges inteligencia</targy>
+        <idopont>   
+            <nap>Kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszín>A1 32</helyszín>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="XML" tipus="előadás">
+        <targy>XML</targy>
+        <idopont>   
+            <nap>Kedd</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </idopont>
+        <helyszín>A1 32</helyszín>
+        <oktato>Bednarik</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="Algoritmusok és vizsgálatuk" tipus="full">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>   
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>A1 320</helyszín>
+        <oktato>Házy</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="Valszám" tipus="gyak">
+        <targy>Valszám</targy>
+        <idopont>   
+            <nap>Szerda</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </idopont>
+        <helyszín>A1 312</helyszín>
+        <oktato>Tóry</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="Algoritmusok és vizsgálatuk" tipus="full">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>   
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>A1 320</helyszín>
+        <oktato>Házy</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="Algoritmusok és vizsgálatuk" tipus="full">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>   
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>A1 320</helyszín>
+        <oktato>Házy</oktato>
+        <szak>Progterv</szak>
+    </ora>
+    <ora id="Algoritmusok és vizsgálatuk" tipus="full">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <idopont>   
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>18</ig>
+        </idopont>
+        <helyszín>A1 320</helyszín>
+        <oktato>Házy</oktato>
+        <szak>Progterv</szak>
+    </ora>
+</SYQ7E2_orarend>
