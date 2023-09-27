@@ -1,0 +1,3 @@
+<!ELEMENT mozi (film*)>
+<!ELEMENT film (színész+, rendező+, író+)>
+<!ATTlIST film mufaj (HORROR|COMEDY|ACTION) "HORROR">
