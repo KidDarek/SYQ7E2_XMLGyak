@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<SYQ7E2_orarend>
+<SYQ7E2_orarend xs="gyak.xsd">
     <ora id="Valszám" tipus="előadás">
         <targy>Valszám</targy>
         <idopont>   
