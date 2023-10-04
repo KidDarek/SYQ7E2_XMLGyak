@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT SYQ7E2_MODELL (A*,B*,C*,A_B*)>
+
+    <!ELEMENT A (Aa,Ab*,Ac)>
+        <!ELEMENT Aa (#PCDATA)>
+        <!ELEMENT Ab (Ax,Ay)>
+            <!ELEMENT Ax (#PCDATA)>
+            <!ELEMENT Ay (#PCDATA)>
+        <!ELEMENT Ac (Ad,Ae)>
+            <!ELEMENT Ad (#PCDATA)>
+            <!ELEMENT Ae (#PCDATA)>
+    <!ELEMENT B (Ba,Bb)>
+        <!ELEMENT Ba (#PCDATA)>
+        <!ELEMENT Bb (Bx,By)>
+            <!ELEMENT Bx (#PCDATA)>
+            <!ELEMENT By (#PCDATA)>
+    <!ELEMENT C (Ca,Cb)>
+        <!ELEMENT Ca (#PCDATA)>
+        <!ELEMENT Cb (#PCDATA)>
+    <!ELEMENT A_B (A_Bc)>
+        <!ELEMENT A_Bc (#PCDATA)>
+
+
+
