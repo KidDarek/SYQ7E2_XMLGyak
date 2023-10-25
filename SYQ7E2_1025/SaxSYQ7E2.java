@@ -1,4 +1,4 @@
-package SaxSYQ7E2;
+package hu.saxSYQ7E2;
 
 import java.io.File;
 import java.io.IOException;
