@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<XMLTaskULA7Z2 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaSYQ7E2.xsd">
+<XMLTaskSYQ7E2 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaSYQ7E2.xsd">
 
     <!-- Csapatok -->
     <csapatok>
         <csapat Cnév="Alpha">
-            <csapatNeve>Alpha</csapatNeve>
             <alapításÉve>1998</alapításÉve>
             <küldetésekszáma>124</küldetésekszáma>
             <jelenlegiküldetés>Project Black Sheep</jelenlegiküldetés>
@@ -16,7 +15,6 @@
         </csapat>
 
         <csapat Cnév="Delta">
-            <csapatNeve>Alpha</csapatNeve>
             <alapításÉve>1998</alapításÉve>
             <küldetésekszáma>124</küldetésekszáma>
             <jelenlegiküldetés>Encypted</jelenlegiküldetés>
@@ -27,7 +25,6 @@
         </csapat>
 
         <csapat Cnév="Foxtrott">
-            <csapatNeve>Alpha</csapatNeve>
             <alapításÉve>2012</alapításÉve>
             <küldetésekSzáma>74</küldetésekSzáma>
             <jelenlegiKüldetés>Encypted</jelenlegiKüldetés>
@@ -42,8 +39,6 @@
     <!-- Katonák -->
     <katonák>
         <katona KID="01" Kcsapat="Alpha">
-            <csapat>Alpha</őoldal>
-            <azanosító>01</azanosító>
             <születésiDátum>2000.09.01</születésiDátum>
             <név>Alex Fey</név>
             <munkaTapasztalat>Beginner</munkaTapasztalat>
@@ -51,8 +46,6 @@
         </katona>
 
         <katona KID="12" Kcsapat="Alpha">
-            <csapat>Alpha</őoldal>
-            <azanosító>12</azanosító>
             <születésiDátum>1999.01.24</születésiDátum>
             <név>Ray Gunn</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
@@ -60,8 +53,6 @@
         </katona>
 
         <katona KID="06" Kcsapat="Alpha">
-            <csapat>Alpha</őoldal>
-            <azanosító>06</azanosító>
             <születésiDátum>1980.03.26</születésiDátum>
             <név>David Anderson</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
@@ -69,8 +60,6 @@
         </katona>
 
         <katona KID="11" Kcsapat="Alpha">
-            <csapat>Alpha</őoldal>
-            <azanosító>11</azanosító>
             <születésiDátum>1995.04.02</születésiDátum>
             <név>Abel Monk</név>
             <munkaTapasztalat>Medium</munkaTapasztalat>
@@ -78,8 +67,6 @@
         </katona>
 
         <katona KID="21" Kcsapat="Delta">
-            <csapat>Delta</őoldal>
-            <azanosító>21</azanosító>
             <születésiDátum>2002.01.12</születésiDátum>
             <név>Fred Milk</név>
             <munkaTapasztalat>Beginner</munkaTapasztalat>
@@ -87,8 +74,6 @@
         </katona>
 
         <katona KID="54" Kcsapat="Delta">
-            <csapat>Delta</őoldal>
-            <azanosító>54</azanosító>
             <születésiDátum>1992.06.01</születésiDátum>
             <név>David Koronis</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
@@ -96,8 +81,6 @@
         </katona>
 
         <katona KID="69" Kcsapat="Delta">
-            <csapat>Delta</őoldal>
-            <azanosító>69</azanosító>
             <születésiDátum>1994.07.03</születésiDátum>
             <név>Alberto</név>
             <munkaTapasztalat>Medium</munkaTapasztalat>
@@ -105,8 +88,6 @@
         </katona>
 
         <katona KID="32" Kcsapat="Delta">
-            <csapat>Delta</őoldal>
-            <azanosító>32</azanosító>
             <születésiDátum>1994.07.03</születésiDátum>
             <név>Liz Fey</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
@@ -114,32 +95,24 @@
         </katona>
 
         <katona KID="09" Kcsapat="Foxtrott">
-            <csapat>Foxtrott</őoldal>
-            <azanosító>09</azanosító>
             <születésiDátum>1998.03.17</születésiDátum>
             <név>Sarah Rider</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>USA</származásiHely>
         </katona>
         <katona KID="10" Kcsapat="Foxtrott">
-            <csapat>Foxtrott</őoldal>
-            <azanosító>10</azanosító>
             <születésiDátum>1998.03.17</születésiDátum>
             <név>Scott Rider</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>USA</származásiHely>
         </katona>        
         <katona KID="19" Kcsapat="Foxtrott">
-            <csapat>Foxtrott</őoldal>
-            <azanosító>19</azanosító>
             <születésiDátum>1996.06.23</születésiDátum>
             <név>Vetra Nyx</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>Palaven</származásiHely>
         </katona>
         <katona KID="08" Kcsapat="Foxtrott">
-            <csapat>Foxtrott</őoldal>
-            <azanosító>08</azanosító>
             <születésiDátum>2000.09.17</születésiDátum>
             <név>Adam Koronis</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
@@ -345,4 +318,4 @@
         </jármű>
 
     </Járművek>
-</XMLTaskULA7Z2>
+</XMLTaskSYQ7E2>
