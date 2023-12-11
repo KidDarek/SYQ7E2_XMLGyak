@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ULA7Z2_kurzusfelvetel tanev="2023/24 I" egyetemNeve="ME"
-xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2_kurzusfelvetel.xsd">
+<SYQ7E2_kurzusfelvetel tanev="2023/24 I" egyetemNeve="ME"
+xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="SYQ7E2_kurzusfelvetel.xsd">
 
     <hallgato evf="3">
         <hnev>Keresztes Iulia</hnev>
@@ -10,7 +10,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
     </hallgato>
 
     <kurzusok>
-        <kurzus id="ULA7Z2_A1" jóváhagyás="igen">
+        <kurzus id="SYQ7E2_A1" jóváhagyás="igen">
             <kurzusnev>Idegennyelv I.</kurzusnev>
             <kredit>0</kredit>
             <hely>A5/202</hely>
@@ -18,7 +18,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <oktató>Pásztor Krisztina</oktató>
         </kurzus>
 
-        <kurzus id="ULA7Z2_MElm">
+        <kurzus id="SYQ7E2_MElm">
             <kurzusnev>Mesterséges intelligencia</kurzusnev>
             <kredit>5</kredit>
             <hely>XXXII. előadó</hely>
@@ -27,7 +27,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <óraadó>Fazekas Levente</óraadó>
         </kurzus>
 
-        <kurzus id="ULA7Z2_XMLElm">
+        <kurzus id="SYQ7E2_XMLElm">
             <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
             <kredit>5</kredit>
             <hely>XXXII. előadó</hely>
@@ -35,7 +35,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <oktató>Bednarik László</oktató>
         </kurzus>
 
-        <kurzus id="ULA7Z2_Alg">
+        <kurzus id="SYQ7E2_Alg">
             <kurzusnev>Algoritmusok és vizsgálatuk</kurzusnev>
             <kredit>5</kredit>
             <hely>A1/320</hely>
@@ -43,7 +43,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <oktató>Házy Attila</oktató>
         </kurzus>
 
-        <kurzus id="ULA7Z2_XMLGyak">
+        <kurzus id="SYQ7E2_XMLGyak">
             <kurzusnev>Adatkezelés XML környezetben</kurzusnev>
             <kredit>5</kredit>
             <hely>Inf/101</hely>
@@ -51,7 +51,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <óraadó>Bednarik László</óraadó>
         </kurzus>
 
-        <kurzus id="ULA7Z2_VElm">
+        <kurzus id="SYQ7E2_VElm">
             <kurzusnev>Vállalati információs rendszerek fejlesztése</kurzusnev>
             <kredit>5</kredit>
             <hely>Inf/101</hely>
@@ -59,7 +59,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <oktató>Sasvári Péter</oktató>
         </kurzus>
 
-        <kurzus id="ULA7Z2_VGyak">
+        <kurzus id="SYQ7E2_VGyak">
             <kurzusnev>Vállalati információs rendszerek fejlesztése</kurzusnev>
             <kredit>5</kredit>
             <hely>Inf/101</hely>
@@ -67,7 +67,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <óraadó>Sasvári Péter</óraadó>
         </kurzus>
 
-        <kurzus id="ULA7Z2_MGyak">
+        <kurzus id="SYQ7E2_MGyak">
             <kurzusnev>Mesterséges intelligencia</kurzusnev>
             <kredit>5</kredit>
             <hely>III. előadó</hely>
@@ -75,7 +75,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <óraadó>Fazekas Levente</óraadó>
         </kurzus>
 
-        <kurzus id="ULA7Z2_VRob">
+        <kurzus id="SYQ7E2_VRob">
             <kurzusnev>Versenyrobotok programozása</kurzusnev>
             <kredit>3</kredit>
             <hely></hely>
@@ -84,7 +84,7 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
             <óraadó>Körei Attila</óraadó>
         </kurzus>
 
-        <kurzus id="ULA7Z2_JProto">
+        <kurzus id="SYQ7E2_JProto">
             <kurzusnev>Játékprototípusok</kurzusnev>
             <kredit>5</kredit>
             <hely>Inf/15</hely>
@@ -93,4 +93,4 @@ xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ULA7Z2
         </kurzus>
     </kurzusok>
 
-</ULA7Z2_kurzusfelvetel>
+</SYQ7E2_kurzusfelvetel>
