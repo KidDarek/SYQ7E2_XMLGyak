@@ -38,81 +38,81 @@
 
     <!-- Katonák -->
     <katonák>
-        <katona KID="01" Kcsapat="Alpha">
+        <katona KID="01" Cnév="Alpha">
             <születésiDátum>2000.09.01</születésiDátum>
             <név>Alex Fey</név>
             <munkaTapasztalat>Beginner</munkaTapasztalat>
             <származásiHely>England</származásiHely>
         </katona>
 
-        <katona KID="12" Kcsapat="Alpha">
+        <katona KID="12" Cnév="Alpha">
             <születésiDátum>1999.01.24</születésiDátum>
             <név>Ray Gunn</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>USA</származásiHely>
         </katona>
 
-        <katona KID="06" Kcsapat="Alpha">
+        <katona KID="06" Cnév="Alpha">
             <születésiDátum>1980.03.26</születésiDátum>
             <név>David Anderson</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>England</származásiHely>
         </katona>
 
-        <katona KID="11" Kcsapat="Alpha">
+        <katona KID="11" Cnév="Alpha">
             <születésiDátum>1995.04.02</születésiDátum>
             <név>Abel Monk</név>
             <munkaTapasztalat>Medium</munkaTapasztalat>
             <származásiHely>Germany</származásiHely>
         </katona>
 
-        <katona KID="21" Kcsapat="Delta">
+        <katona KID="21" Cnév="Delta">
             <születésiDátum>2002.01.12</születésiDátum>
             <név>Fred Milk</név>
             <munkaTapasztalat>Beginner</munkaTapasztalat>
             <származásiHely>Greece</származásiHely>
         </katona>
 
-        <katona KID="54" Kcsapat="Delta">
+        <katona KID="54" Cnév="Delta">
             <születésiDátum>1992.06.01</születésiDátum>
             <név>David Koronis</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>Hungary</származásiHely>
         </katona>
 
-        <katona KID="69" Kcsapat="Delta">
+        <katona KID="69" Cnév="Delta">
             <születésiDátum>1994.07.03</születésiDátum>
             <név>Alberto</név>
             <munkaTapasztalat>Medium</munkaTapasztalat>
             <származásiHely>Spain</származásiHely>
         </katona>
 
-        <katona KID="32" Kcsapat="Delta">
+        <katona KID="32" Cnév="Delta">
             <születésiDátum>1994.07.03</születésiDátum>
             <név>Liz Fey</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>USA</származásiHely>
         </katona>
 
-        <katona KID="09" Kcsapat="Foxtrott">
+        <katona KID="09" Cnév="Foxtrott">
             <születésiDátum>1998.03.17</születésiDátum>
             <név>Sarah Rider</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>USA</származásiHely>
         </katona>
-        <katona KID="10" Kcsapat="Foxtrott">
+        <katona KID="10" Cnév="Foxtrott">
             <születésiDátum>1998.03.17</születésiDátum>
             <név>Scott Rider</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>USA</származásiHely>
         </katona>        
-        <katona KID="19" Kcsapat="Foxtrott">
+        <katona KID="19" Cnév="Foxtrott">
             <születésiDátum>1996.06.23</születésiDátum>
             <név>Vetra Nyx</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
             <származásiHely>Palaven</származásiHely>
         </katona>
-        <katona KID="08" Kcsapat="Foxtrott">
+        <katona KID="08" Cnév="Foxtrott">
             <születésiDátum>2000.09.17</születésiDátum>
             <név>Adam Koronis</név>
             <munkaTapasztalat>Pro</munkaTapasztalat>
@@ -132,7 +132,6 @@
             <páncélzat>Heavy</páncélzat>
         </felszerelés>
 
-    <felszerelések>
         <felszerelés FID="02" KID="12">
             <fegyver>
                 <fő>Sniper</fő>
@@ -142,7 +141,6 @@
             <páncélzat>Light</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="03" KID="06">
             <fegyver>
                 <fő>AR</fő>
@@ -152,7 +150,6 @@
             <páncélzat>Light</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="04" KID="11">
             <fegyver>
                 <fő>AR</fő>
@@ -162,7 +159,6 @@
             <páncélzat>Heavy</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="05" KID="21">
             <fegyver>
                 <fő>AR</fő>
@@ -172,7 +168,6 @@
             <páncélzat>Heavy</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="06" KID="54">
             <fegyver>
                 <fő>Sniper</fő>
@@ -182,7 +177,6 @@
             <páncélzat>Light</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="07" KID="67">
             <fegyver>
                 <fő>AR</fő>
@@ -192,7 +186,6 @@
             <páncélzat>Light</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="08" KID="32">
             <fegyver>
                 <fő>AR</fő>
@@ -202,7 +195,6 @@
             <páncélzat>Heavy</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="09" KID="09">
             <fegyver>
                 <fő>Sniper</fő>
@@ -212,7 +204,6 @@
             <páncélzat>Light</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="10" KID="10">
             <fegyver>
                 <fő>AR</fő>
@@ -222,7 +213,6 @@
             <páncélzat>Light</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="11" KID="19">
             <fegyver>
                 <fő>AR</fő>
@@ -232,7 +222,6 @@
             <páncélzat>Heavy</páncélzat>
         </felszerelés>
 
-        <felszerelések>
         <felszerelés FID="12" KID="08">
             <fegyver>
                 <fő>Sniper</fő>
@@ -276,43 +265,43 @@
     <Járművek>
         <!-- Assassin's Creed 3 nyelvei-->
         <jármű Cnev="Alpha" JID="01">
-            <név>Jeep</ípus>
+            <név>Jeep</név>
             <típus>Land</típus>
             <páncélozottság>Lvl 5</páncélozottság>
         </jármű>
 
         <jármű Cnev="Alpha" JID="02">
-            <név>Ship</ípus>
+            <név>Ship</név>
             <típus>Water</típus>
             <páncélozottság>Lvl 2</páncélozottság>
         </jármű>
 
         <jármű Cnev="Delta" JID="03">
-            <név>Jeep</ípus>
+            <név>Jeep</név>
             <típus>Land</típus>
             <páncélozottság>Lvl 4</páncélozottság>
         </jármű>
 
         <jármű Cnev="Delta" JID="04">
-            <név>Jetski</ípus>
+            <név>Jetski</név>
             <típus>Water</típus>
             <páncélozottság>Lvl 1</páncélozottság>
         </jármű>
 
         <jármű Cnev="Delta" JID="05">
-            <név>Ship</ípus>
+            <név>Ship</név>
             <típus>Water</típus>
             <páncélozottság>Lvl 4</páncélozottság>
         </jármű>
 
         <jármű Cnev="Foxtrott" JID="06">
-            <név>Jeep</ípus>
+            <név>Jeep</név>
             <típus>Land</típus>
             <páncélozottság>Lvl 5</páncélozottság>
         </jármű>
 
         <jármű Cnev="Foxtrott" JID="07">
-            <név>Jet</ípus>
+            <név>Jet</név>
             <típus>Air</típus>
             <páncélozottság>Lvl 3</páncélozottság>
         </jármű>

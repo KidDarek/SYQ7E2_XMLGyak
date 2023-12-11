@@ -6,16 +6,164 @@
     <xs:element name="alapításÉve" type="xs:integer" />
     <xs:element name="küldetésekszáma" type="xs:integer" />
     <xs:element name="jelenlegiküldetés" type="xs:string" />
-    <xs:element name="alapitas_datuma" type="DatumTipus" />
-    <xs:element name="csapat" type="xs:integer" />
+    <xs:element name="alapítótag" type="xs:string" />
+    <xs:element name="születésiDátum" type="DateTípus" />
+    <xs:element name="név" type="xs:string" />
+    <xs:element name="munkaTapasztalat" type="xs:string" />
+    <xs:element name="származásiHely" type="xs:string" />
+    <xs:element name="fő" type="xs:string" />
+    <xs:element name="mellék" type="xs:string" />
+    <xs:element name="kiegészít" type="FelszerelésTípus" />
+    <xs:element name="páncélzat" type="xs:string" />
+    <xs:element name="születésiDátum" type="DateTípus" />
+    <xs:element name="csatlakozásDátum" type="DateTípus" />
+    <xs:element name="típus" type="xs:string" />
+    <xs:element name="páncélozottság" type="xs:string" />
+
+
 
     <!-- Saját típusok -->
     <xs:simpleType name="DateTipus">
         <xs:restriction base="xs:date">
-            <xs:minInclusive value="1900-01-01" />
-            <xs:maxInclusive value="2023-12-31" />
+            <xs:minInclusive value="1900.01.01" />
+            <xs:maxInclusive value="2023.12.31" />
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="FelszerelésTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Red dot"></xs:enumeration>
+            <xs:enumeration value="Explosive"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Komplex típusok -->
+    <xs:complexType name="FegyverTipus">
+        <xs:sequence>
+            <xs:element ref="fő" />
+            <xs:element ref="mellék" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CsapatTipus">
+        <xs:sequence>
+            <xs:element ref="alapításÉve"/>
+            <xs:element ref="küldetésekszáma"/>
+            <xs:element ref="jelenlegiküldetés"/>
+            <xs:element ref="alapítótag" minOccurs="1" maxOccurs="3"/>
+        </xs:sequence>
+        <xs:attribute name="Cnév" type="xs:string" />
+    </xs:complexType>
+
+    <xs:complexType name="KatonaTipus">
+        <xs:sequence>
+            <xs:element ref="születésiDátum"/>
+            <xs:element ref="név"/>
+            <xs:element ref="munkaTapasztalat"/>
+            <xs:element ref="származásiHely"/>
+        </xs:sequence>
+        <xs:attribute name="Cnév" type="xs:string" />
+        <xs:attribute name="KID" type="xs:integer" />
+    </xs:complexType>
+
+    <xs:complexType name="FelszerelésTipus">
+        <xs:sequence>
+            <xs:element name="fegyver" type="FegyverTípus"/>
+            <xs:element ref="kiegészít"/>
+            <xs:element ref="páncélzat"/>
+        </xs:sequence>
+        <xs:attribute name="FID" type="xs:integer" />
+        <xs:attribute name="KID" type="xs:integer" />
+    </xs:complexType>
+
+    <xs:complexType name="OperátorTipus">
+        <xs:sequence>
+            <xs:element ref="születésiDátum"/>
+            <xs:element ref="név"/>
+            <xs:element ref="csatlakozásDátum"/>
+        </xs:sequence>
+        <xs:attribute name="Cnév" type="xs:string" />
+        <xs:attribute name="OID" type="xs:integer" />
+    </xs:complexType>
+
+    <xs:complexType name="JárműTipus">
+        <xs:sequence>
+            <xs:element ref="név"/>
+            <xs:element ref="típus"/>
+            <xs:element ref="páncélozottság"/>
+        </xs:sequence>
+        <xs:attribute name="Cnév" type="xs:string" />
+        <xs:attribute name="JID" type="xs:integer" />
+    </xs:complexType>
+
+     <!-- Elemek -->
+    <xs:element name="SYQ7E2_ESportok">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Csapat" type="CsapatTipus" maxOccurs="unbounded" />
+                <xs:element name="Katona" type="KatonaTipus" maxOccurs="unbounded" />
+                <xs:element name="Felszerelés" type="FelszerelésTipus" maxOccurs="unbounded" />
+                <xs:element name="Operátor" type="OperátorTipus" maxOccurs="unbounded" />
+                <xs:element name="Jármű" type="JárműTipus" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+
+        <!--Elsődleges kulcsok-->
+
+        <xs:key name="CsapatKulcs">
+            <xs:selector xpath="Csapat" />
+            <xs:field xpath="@Cnév" />
+        </xs:key>
+
+        <xs:key name="KatonaKulcs">
+            <xs:selector xpath="Katona" />
+            <xs:field xpath="@KID" />
+        </xs:key>
+
+        <xs:key name="FelszerelésKulcs">
+            <xs:selector xpath="Felszerelés" />
+            <xs:field xpath="@FID" />
+        </xs:key>
+
+        <xs:key name="OperátorKulcs">
+            <xs:selector xpath="Operátor" />
+            <xs:field xpath="@OID" />
+        </xs:key>
+
+        <xs:key name="JárműKulcs">
+            <xs:selector xpath="Jármű" />
+            <xs:field xpath="@JID" />
+        </xs:key>
+
+        <!-- Idegen kulcsok -->
+
+        <xs:key name="KatonaKulcs">
+            <xs:selector xpath="Katona" />
+            <xs:field xpath="@Cnév" />
+        </xs:key>
+
+        <xs:key name="FelszerelésKulcs">
+            <xs:selector xpath="Felszerelés" />
+            <xs:field xpath="@KID" />
+        </xs:key>
+
+        <xs:key name="OperátorKulcs">
+            <xs:selector xpath="Operátor" />
+            <xs:field xpath="@Cnév" />
+        </xs:key>
+
+        <xs:key name="JárműKulcs">
+            <xs:selector xpath="Jármű" />
+            <xs:field xpath="@Cnév" />
+        </xs:key>
+
+        <!-- 1:1 kapcsolat-->
+
+        <xs:unique name="FelszereltségKulcs">
+            <xs:selector xpath="Felszereltség" />
+            <xs:field xpath="@KID" />
+        </xs:unique>
+
 
 </xs:schema>
+
