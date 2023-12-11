@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ULA7Z2_modell (A+, B+, C+, AB*)>
 
-<!ELEMENT SYQ7E2_MODELL (A*,B*,C*,A_B*)>
+<!ELEMENT A (b+, c?)>
+    <!ELEMENT b (x?, y?)>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>
+    <!ELEMENT c (d?, e?)>
+        <!ELEMENT d (#PCDATA)>
+        <!ELEMENT e (#PCDATA)>
+    <!ATTLIST A a ID #REQUIRED>
 
-    <!ELEMENT A (Aa,Ab*,Ac)>
-        <!ELEMENT Aa (#PCDATA)>
-        <!ELEMENT Ab (Ax,Ay)>
-            <!ELEMENT Ax (#PCDATA)>
-            <!ELEMENT Ay (#PCDATA)>
-        <!ELEMENT Ac (Ad,Ae)>
-            <!ELEMENT Ad (#PCDATA)>
-            <!ELEMENT Ae (#PCDATA)>
-    <!ELEMENT B (Ba,Bb)>
-        <!ELEMENT Ba (#PCDATA)>
-        <!ELEMENT Bb (Bx,By)>
-            <!ELEMENT Bx (#PCDATA)>
-            <!ELEMENT By (#PCDATA)>
-    <!ELEMENT C (Ca,Cb)>
-        <!ELEMENT Ca (#PCDATA)>
-        <!ELEMENT Cb (#PCDATA)>
-    <!ELEMENT A_B (A_Bc)>
-        <!ELEMENT A_Bc (#PCDATA)>
+<!ELEMENT B (b?)>
+    <!ELEMENT b (x?, y?)>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>
+    <!ATTLIST B a ID #REQUIRED>
+    <!ATTLIST B Cref IDREF>
 
+<!ELEMENT C (b?)>
+    <!ELEMENT b (#PCDATA)>
+    <!ATTLIST C a ID #REQUIRED>
 
-
+<!ELEMENT AB (c?)>
+    <!ELEMENT c (#PCDATA)>
+    <!ATTLIST AB Aref IDREF #REQUIRED>
+    <!ATTLIST AB Bref IDREF #REQUIRED>

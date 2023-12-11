@@ -1,15 +1,15 @@
-<!ELEMENT SYQ7E2_orarend (ora*)>
-<!ELEMENT ora (targy, idopont,helyszin,oktato+,szak+)>
-<!ATTLIST ora 
-			id CDATA #Required
-			tipus CDATA #Required
-		>
-<!ELEMENT targy (#PCDATA)>
-<!ELEMENT idopont (nap,tol,ig)>
-	<!ELEMENT nap (#PCDATA)>
-	<!ELEMENT tol (#PCDATA)>
-	<!ELEMENT ig (#PCDATA)>
-<!ELEMENT helyszin (#PCDATA)>
-<!ELEMENT oktato (#PCDATA)>
-<!ELEMENT szak (#PCDATA)>
 
+
+<!ELEMENT ULA7Z2_orarend (óra+)>
+    <!ELEMENT óra (kurzusnév?, időpont?, oktató+, helyszín?, szak?)>
+    <!ELEMENT kurzusnév (#PCDATA)>
+    <!ELEMENT időpont (kezdet?, vég?, nap?)>
+        <!ELEMENT kezdet (#PCDATA)>
+        <!ELEMENT vég (#PCDATA)>
+        <!ELEMENT nap (Hétfő | Kedd | Szerda | Csütörtök) "Hétfő">
+    <!ELEMENT oktató (#PCDATA)>
+    <!ELEMENT helyszín (#PCDATA)>
+    <!ELEMENT szak (#PCDATA)>
+
+<!ATTLIST óra id ID #REQUIRED>
+<!ATTLIST óra típus (elmélet | gyakorlat) "elmélet">
