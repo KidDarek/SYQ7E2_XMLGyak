@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!-- Egyszerű típusok -->
+    <xs:element name="alapításÉve" type="xs:integer" />
+    <xs:element name="küldetésekszáma" type="xs:integer" />
+    <xs:element name="jelenlegiküldetés" type="xs:string" />
+    <xs:element name="alapitas_datuma" type="DatumTipus" />
+    <xs:element name="csapat" type="xs:integer" />
+
+    <!-- Saját típusok -->
+    <xs:simpleType name="DateTipus">
+        <xs:restriction base="xs:date">
+            <xs:minInclusive value="1900-01-01" />
+            <xs:maxInclusive value="2023-12-31" />
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</xs:schema>
