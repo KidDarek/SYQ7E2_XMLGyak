@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><XMLTaskSYQ7E2 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaSYQ7E2.xsd">
+
+    <!-- Csapatok -->
+        <csapat Cnév="Alpha">
+            <alapításÉve>1998</alapításÉve>
+            <küldetésekSzáma>124</küldetésekSzáma>
+            <jelenlegiküldetés>Project Black Sheep</jelenlegiküldetés>
+                <alapítótagok>
+                    <alapítótag>Ghost</alapítótag>
+                    <alapítótag>David Mercer</alapítótag>
+                </alapítótagok>
+        </csapat>
+
+        <csapat Cnév="Delta">
+            <alapításÉve>1998</alapításÉve>
+            <küldetésekSzáma>124</küldetésekSzáma>
+            <jelenlegiküldetés>Encypted</jelenlegiküldetés>
+                <alapítótagok>
+                    <alapítótag>Eric Black</alapítótag>
+                    <alapítótag>George Force</alapítótag>
+                </alapítótagok>
+        </csapat>
+
+        <csapat Cnév="Foxtrott">
+            <alapításÉve>2012</alapításÉve>
+            <küldetésekSzáma>74</küldetésekSzáma>
+            <jelenlegiKüldetés>Encypted</jelenlegiKüldetés>
+                <alapítótagok>
+                    <alapítótag>Sarah Ryder</alapítótag>
+                    <alapítótag>Scott Ryder</alapítótag>
+                    <alapítótag>Vetra Nyx</alapítótag>
+                </alapítótagok>
+        </csapat>
+
+    <!-- Katonák -->
+        <katona Cnév="Alpha" KID="01">
+            <születésiDátum>2000.09.01</születésiDátum>
+            <név>Alex Fey</név>
+            <munkaTapasztalat>Beginner</munkaTapasztalat>
+            <származásiHely>England</származásiHely>
+        </katona>
+
+        <katona Cnév="Alpha" KID="12">
+            <születésiDátum>1999.01.24</születésiDátum>
+            <név>Ray Gunn</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>USA</származásiHely>
+        </katona>
+
+        <katona Cnév="Alpha" KID="06">
+            <születésiDátum>1980.03.26</születésiDátum>
+            <név>David Anderson</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>England</származásiHely>
+        </katona>
+
+        <katona Cnév="Alpha" KID="11">
+            <születésiDátum>1995.04.02</születésiDátum>
+            <név>Abel Monk</név>
+            <munkaTapasztalat>Medium</munkaTapasztalat>
+            <származásiHely>Germany</származásiHely>
+        </katona>
+
+        <katona Cnév="Delta" KID="21">
+            <születésiDátum>2002.01.12</születésiDátum>
+            <név>Fred Milk</név>
+            <munkaTapasztalat>Beginner</munkaTapasztalat>
+            <származásiHely>Greece</származásiHely>
+        </katona>
+
+        <katona Cnév="Delta" KID="54">
+            <születésiDátum>1992.06.01</születésiDátum>
+            <név>David Koronis</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>Hungary</származásiHely>
+        </katona>
+
+        <katona Cnév="Delta" KID="69">
+            <születésiDátum>1994.07.03</születésiDátum>
+            <név>Alberto</név>
+            <munkaTapasztalat>Medium</munkaTapasztalat>
+            <származásiHely>Spain</származásiHely>
+        </katona>
+
+        <katona Cnév="Delta" KID="32">
+            <születésiDátum>1994.07.03</születésiDátum>
+            <név>Liz Fey</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>USA</származásiHely>
+        </katona>
+
+        <katona Cnév="Foxtrott" KID="09">
+            <születésiDátum>1998.03.17</születésiDátum>
+            <név>Sarah Rider</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>USA</származásiHely>
+        </katona>
+        <katona Cnév="Foxtrott" KID="10">
+            <születésiDátum>1998.03.17</születésiDátum>
+            <név>Scott Rider</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>USA</származásiHely>
+        </katona>        
+        <katona Cnév="Foxtrott" KID="19">
+            <születésiDátum>1996.06.23</születésiDátum>
+            <név>Vetra Nyx</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>Palaven</származásiHely>
+        </katona>
+        <katona Cnév="Foxtrott" KID="08">
+            <születésiDátum>2000.09.17</születésiDátum>
+            <név>Adam Koronis</név>
+            <munkaTapasztalat>Pro</munkaTapasztalat>
+            <származásiHely>Hungary</származásiHely>
+        </katona>
+
+    <!-- Felszerelések -->
+
+        <felszerelés FID="01" KID="01">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Heavy</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="02" KID="12">
+            <fegyver>
+                <fő>Sniper</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="03" KID="06">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Explosive</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="04" KID="11">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Heavy</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="05" KID="21">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>SMG</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Heavy</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="06" KID="54">
+            <fegyver>
+                <fő>Sniper</fő>
+                <mellék>SMG</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="07" KID="67">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>SMG</mellék>
+            </fegyver>
+            <kiegészít>Explosive</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="08" KID="32">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Heavy</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="09" KID="09">
+            <fegyver>
+                <fő>Sniper</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="10" KID="10">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Red dot</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="11" KID="19">
+            <fegyver>
+                <fő>AR</fő>
+                <mellék>SMG</mellék>
+            </fegyver>
+            <kiegészít>Explosive</kiegészít>
+            <páncélzat>Heavy</páncélzat>
+        </felszerelés>
+
+        <felszerelés FID="12" KID="08">
+            <fegyver>
+                <fő>Sniper</fő>
+                <mellék>Pistol</mellék>
+            </fegyver>
+            <kiegészít>Explosive</kiegészít>
+            <páncélzat>Light</páncélzat>
+        </felszerelés>
+
+
+    <!-- Operátorok -->
+        <operátor Cnév="Alpha" OID="102">
+            <születésiDátum>2000.11,01</születésiDátum>
+            <név>Rose Alec</név>
+            <csatlakozásDátum>2020.11.01</csatlakozásDátum>
+        </operátor>
+
+        <operátor Cnév="Alpha" OID="101">
+            <születésiDátum>1965.10,25</születésiDátum>
+            <név>Phantom</név>
+            <csatlakozásDátum>1996.05.09</csatlakozásDátum>
+        </operátor>
+
+        <operátor Cnév="Delta" OID="103">
+            <születésiDátum>1994.09.21</születésiDátum>
+            <név>Ben Log</név>
+            <csatlakozásDátum>2012.01.29</csatlakozásDátum>
+        </operátor>
+
+        <operátor Cnév="Foxtrott" OID="104">
+            <születésiDátum>2000.11,11</születésiDátum>
+            <név>SAM</név>
+            <csatlakozásDátum>2020.11.12</csatlakozásDátum>
+        </operátor>
+
+
+
+    <!-- Járművek -->
+
+        <jármű Cnev="Alpha" JID="01">
+            <név>Jeep</név>
+            <típus>Land</típus>
+            <páncélozottság>Lvl 5</páncélozottság>
+        </jármű>
+
+        <jármű Cnev="Alpha" JID="02">
+            <név>Ship</név>
+            <típus>Water</típus>
+            <páncélozottság>Lvl 2</páncélozottság>
+        </jármű>
+
+        <jármű Cnev="Delta" JID="03">
+            <név>Jeep</név>
+            <típus>Land</típus>
+            <páncélozottság>Lvl 4</páncélozottság>
+        </jármű>
+
+        <jármű Cnev="Delta" JID="04">
+            <név>Jetski</név>
+            <típus>Water</típus>
+            <páncélozottság>Lvl 1</páncélozottság>
+        </jármű>
+
+        <jármű Cnev="Delta" JID="05">
+            <név>Ship</név>
+            <típus>Water</típus>
+            <páncélozottság>Lvl 4</páncélozottság>
+        </jármű>
+
+        <jármű Cnev="Foxtrott" JID="06">
+            <név>Jeep</név>
+            <típus>Land</típus>
+            <páncélozottság>Lvl 5</páncélozottság>
+        </jármű>
+
+        <jármű Cnev="Foxtrott" JID="07">
+            <név>Jet</név>
+            <típus>Air</típus>
+            <páncélozottság>Lvl 3</páncélozottság>
+        </jármű>
+
+</XMLTaskSYQ7E2>
