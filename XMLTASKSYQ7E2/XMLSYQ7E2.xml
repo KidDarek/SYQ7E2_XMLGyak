@@ -3,10 +3,9 @@
 <XMLTaskSYQ7E2 xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="XMLSchemaSYQ7E2.xsd">
 
     <!-- Csapatok -->
-    <csapatok>
         <csapat Cnév="Alpha">
             <alapításÉve>1998</alapításÉve>
-            <küldetésekszáma>124</küldetésekszáma>
+            <küldetésekSzáma>124</küldetésekSzáma>
             <jelenlegiküldetés>Project Black Sheep</jelenlegiküldetés>
                 <alapítótagok>
                     <alapítótag>Ghost</alapítótag>
@@ -16,7 +15,7 @@
 
         <csapat Cnév="Delta">
             <alapításÉve>1998</alapításÉve>
-            <küldetésekszáma>124</küldetésekszáma>
+            <küldetésekSzáma>124</küldetésekSzáma>
             <jelenlegiküldetés>Encypted</jelenlegiküldetés>
                 <alapítótagok>
                     <alapítótag>Eric Black</alapítótag>
@@ -34,10 +33,8 @@
                     <alapítótag>Vetra Nyx</alapítótag>
                 </alapítótagok>
         </csapat>
-    </csapatok>
 
     <!-- Katonák -->
-    <katonák>
         <katona KID="01" Cnév="Alpha">
             <születésiDátum>2000.09.01</születésiDátum>
             <név>Alex Fey</név>
@@ -119,10 +116,8 @@
             <származásiHely>Hungary</származásiHely>
         </katona>
 
-    </katonák>
-
     <!-- Felszerelések -->
-    <felszerelések>
+
         <felszerelés FID="01" KID="01">
             <fegyver>
                 <fő>AR</fő>
@@ -230,10 +225,9 @@
             <kiegészít>Explosive</kiegészít>
             <páncélzat>Light</páncélzat>
         </felszerelés>
-    </felszerelések>
+
 
     <!-- Operátorok -->
-    <operátorok>
         <operátor Cnév="Alpha" OID="102">
             <születésiDátum>2000.11,01</születésiDátum>
             <név>Rose Alec</név>
@@ -258,12 +252,10 @@
             <csatlakozásDátum>2020.11.12</csatlakozásDátum>
         </operátor>
 
-    </operátorok>
 
 
     <!-- Járművek -->
-    <Járművek>
-        <!-- Assassin's Creed 3 nyelvei-->
+
         <jármű Cnev="Alpha" JID="01">
             <név>Jeep</név>
             <típus>Land</típus>
@@ -306,5 +298,4 @@
             <páncélozottság>Lvl 3</páncélozottság>
         </jármű>
 
-    </Járművek>
 </XMLTaskSYQ7E2>
