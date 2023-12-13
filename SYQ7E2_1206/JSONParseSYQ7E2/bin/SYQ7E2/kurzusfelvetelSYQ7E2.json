@@ -1,0 +1,42 @@
+{
+  "WJB0DC_kurzusfelvetel": {
+    "hallgato": {
+      "hnev": "Kriston Ádám",
+      "szulev": 2002,
+      "szak": "Programtervez� informatikus"
+    },
+    "kurzusok": {
+      "kurzus": [
+        {
+          "kurzusnev": "XML",
+          "kredit": 5,
+          "hely": 30,
+          "idopont": "szerda 12-14",
+          "oktato": "Dr. Bednarik L�szl�"
+        },
+        {
+          "kurzusnev": "Mesters�ges intelligencia",
+          "kredit": 5,
+          "hely": 120,
+          "idopont": "kedd 10-12",
+          "oktato": "Dr. Kunn� Tam�s Judit",
+          "oraado": "Fazekas Levente"
+        },
+        {
+          "kurzusnev": "J�t�k prototipusok",
+          "kredit": 5,
+          "hely": 10,
+          "idopont": "cs�t�rt�k 16-20",
+          "oktato": "Kiss �ron"
+        },
+        {
+          "kurzusnev": "V�llalati Inform�ci�s Rendszerek",
+          "kredit": 5,
+          "hely": 60,
+          "idopont": "szerda 14-16",
+          "oktato": "Dr. Sasv�ri P�ter"
+        }
+      ]
+    }
+  }
+}
